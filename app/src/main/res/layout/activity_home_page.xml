@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.bakatanak.HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="95dp"
+        android:textAlignment="center"
+        android:text="Bakat Anak"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/ic_soundcurr05" />
+
+    <EditText
+       android:id="@+id/namaAnak"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="25dp"
+       android:layout_marginRight="25dp"
+       android:layout_marginTop="15dp"
+       android:textAlignment="center"
+       android:inputType="textPersonName"
+       android:text="Nama Anak" />
+
+    <Button
+       android:id="@+id/mulai_App"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="25dp"
+       android:layout_marginRight="25dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:text="Mulai Tes" />
+</LinearLayout>

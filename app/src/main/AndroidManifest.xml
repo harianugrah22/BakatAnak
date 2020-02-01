@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.bakatanak">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pertanyaan"
+            android:label="Pertanyaan 1" />
+        <activity
+            android:name=".Hasil"
+            android:label="Hasil" />
+        <activity
+            android:name=".Pertanyaan_2"
+            android:label="Pertanyaan 2"/>
+        <activity
+            android:name=".Pertanyaan_3"
+            android:label="Pertanyaan 3"/>
+        <activity
+            android:name=".Pertanyaan_4"
+            android:label="Pertanyaan 4"/>
+        <activity
+            android:name=".Pertanyaan_5"
+            android:label="Pertanyaan 5"/>
+        <activity
+            android:name=".Pertanyaan_6"
+            android:label="Pertanyaan 6"/>
+        <activity
+            android:name=".Pertanyaan_7"
+            android:label="Pertanyaan 7"/>
+        <activity
+            android:name=".Pertanyaan_8"
+            android:label="Pertanyaan 8"/>
+        <activity
+            android:name=".Pertanyaan_9"
+            android:label="Pertanyaan 9"/>
+        <activity
+            android:name=".Pertanyaan_10"
+            android:label="Pertanyaan 10"/>
+        <activity
+            android:name=".Pertanyaan_11"
+            android:label="Pertanyaan 11"/>
+        <activity
+            android:name=".Pertanyaan_12"
+            android:label="Pertanyaan 12"></activity>
+    </application>
+
+</manifest>
